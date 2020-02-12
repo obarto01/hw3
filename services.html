@@ -1,0 +1,238 @@
+<!doctype html>
+<html>
+<head>
+<meta name=‘viewport’ content=“width=device-width, initial-scale=1”>
+<meta charset="utf-8">
+<meta name="Description" content="Services Page for Dunder Mifflin Website">
+<title>Services</title>
+  <style type="text/css">
+    @media only screen and (max-width: 1080px)
+    {
+      html,body {font-size: 125%; margin: 0;}
+    }
+    @media only screen and (min-width: 1081px)
+    {
+      html,body {font-size: 112%; margin: 0;}
+    }
+    header
+    {
+      width: 100%;
+      height: 13%;
+      position: fixed;
+      top: 0;
+      left:0;
+      background-color: white;
+      z-index: 100
+    }
+    .column
+    {
+      float: left;
+      width: 27.5%;
+      height: 65%;
+    }
+    .main_col
+    {
+      float: left;
+      width: 45%;
+      height: 100%;
+    }
+
+    .nav
+    {
+      box-sizing: border-box;
+      border: 5px solid black;
+      position: fixed;
+      top: 13.5%;
+      width: 100%;
+      height: 9%;
+      background-color: cornflowerblue;
+      left:0;
+      z-index: 75;
+    } 
+
+    .nav::after
+    {
+      height: 10px;
+      content: " ";
+      clear: both;
+      display: table;
+    }
+    .nav_link
+    {
+      color: black;
+    }
+        #nav_ul 
+        {
+            list-style-type: none;
+            margin: 0;
+            padding: 10px;
+            width: 100%;
+            min-width: 50%;
+            white-space: nowrap;
+         }
+
+         #nav_li 
+         {
+            display: inline;      
+            margin-left: 10%;
+            margin-right: 10%;    
+         }
+
+        footer
+        {
+          box-sizing: border-box;
+          border: 2px solid black;          
+          width: 100%;
+          height: 6.5%;
+          position: fixed;
+          bottom: 0;
+          left: 0;
+          z-index: 80;
+          background-color: white;
+          font-size: 75%;
+        }
+
+    .services
+    {
+      font-size: 130%;
+      position: relative;
+      color: red;
+      text-align: center;
+      top: 24%;
+      z-index: 500;
+      margin-bottom: 2%;
+      z-index: 30;
+    }
+
+    .images
+    {
+      position: relative;
+      top: 26%;
+      height: 22.5%;  
+      z-index: 30;    
+    }
+
+    .pic
+    {
+      float: left;       
+      width: 15%;
+      margin-left: 5%;
+      margin-right: 5%;
+      height: 100%;  
+      position: relative; 
+      z-index: 30;     
+    }
+
+    .titles
+    {
+      position: relative;
+      top: 27%;
+      margin-bottom: 2%;
+      z-index: 30;
+    }
+
+    .title
+    {
+      color: red;
+      position: relative;
+      float: left;
+      text-align: center;
+      width: 15%;
+      margin-left: 5%;
+      margin-right: 5%;
+      z-index: 30;
+    }
+
+    .descrips
+    {
+      position: relative;
+      top: 31%;
+      height: 24%;
+      margin-bottom: 7%;
+      margin-left: 0%;
+      z-index: 30;
+    }
+
+    .descrip
+    {
+      float: left;
+      text-align: center;     
+      width: 15%;
+      margin-left: 5%;
+      margin-right: 5%;
+      height: 100%;  
+      position: relative;  
+      overflow: scroll;
+      z-index: 30;
+    }
+  </style>
+</head>
+
+<body>
+<div style="height: 100%; position: fixed; overflow: scroll;">
+<header>  
+  <div class="column">
+      <img src="grey_bar.png" style="width:100%;max-height:100%">
+    </div>
+    <div class="main_col">
+      <img src="dunder_mifflin.png" style="width:100%;max-height:100%">
+    </div>
+    <div class="column">
+      <img src="grey_bar.png" style="width:100%;max-height:100%">
+    </div>
+</header>
+
+<div class="nav">
+<ul id="nav_ul">
+  <li id="nav_li" style="color:white;margin-left: 0px;margin-right: 0px">     Navigation: </li>
+  <li id="nav_li"><a class="nav_link" href="index.html">Home</a></li>
+  <li id="nav_li"><a class="nav_link" href="contacts.html">Contacts</a></li>
+  <li id="nav_li"><a class="nav_link" href="services.html">Services</a></li>
+</ul>
+</div>
+
+<div class="services">
+  Office Services
+</div>
+
+<div class="images">
+  <div class="pic">
+    <img src="truck.jpeg" style="width:100%;height:100%">
+  </div>
+  <div class="pic">
+    <img src="supplies.jpeg" style="width:100%;height:100%">
+  </div>
+  <div class="pic">
+    <img src="cards.jpg" style="width:100%;height:100%">
+  </div>
+  <div class="pic">
+    <img src="papers.jpg" style="width:100%;height:100%">
+  </div>
+</div>
+
+<div class="titles">
+  <div class="title"> Same Day Delivery </div>
+  <div class="title"> Office Supplies </div>
+  <div class="title"> Business Cards</div>
+  <div class="title"> Paper Products </div>
+</div>
+
+<div class="descrips">
+  <div class="descrip"> For customers within a 25 mile radius of our Scranton, PA office, we offer same day delivery if the order is placed prior to 2pm.</div>
+  <div class="descrip"> Office supplies, both generic and Dunder Mifflin Co. themed, are available for purchase. Scissors, writing utensils, etc. can all be arranged for your office set up.</div>
+  <div class="descrip"> For those looking to promote their new business (or improve on an existing one), we offer business card design and printing.</div>
+  <div class="descrip"> We offer a wide variety of paper products for any situation your business encounters. Cardboard, flimsy, transparent; any kind of paper.</div>
+</div>
+
+<p></p>
+
+
+<footer>
+  <center>
+    <p>
+      Copyright @2020 Dunder Mifflin Co.    Website Designed by Owen Bartok   
+    </p>
+  </center>
+</footer>
+</div>
+</body>

@@ -1,0 +1,126 @@
+      @media only screen and (max-width: 1080px)
+      {
+          html,body {font-size: 125%; margin: 0;}
+      }
+      @media only screen and (min-width: 1081px)
+      {
+          html,body {font-size: 112%; margin: 0;}
+      }
+      header
+      {
+          width: 100%;
+          height: 13%;
+          position: fixed;
+          top: 0;
+          left:0;
+          background-color: white;
+          z-index: 100
+      }
+
+      .column
+      {
+          float: left;
+          width: 27.5%;
+          height: 65%;
+      }
+      .main_col
+      {
+          float: left;
+          width: 45%;
+        height: 100%;
+      }
+
+      .nav
+      {
+          box-sizing: border-box;
+          border: 5px solid black;
+          position: fixed;
+          top: 13.5%;
+          width: 100%;
+          height: 9%;
+          background-color: cornflowerblue;
+          left:0;
+          z-index: 75;
+      } 
+
+      .nav::after
+      {
+          height: 10px;
+          content: " ";
+          clear: both;
+          display: table;
+      }
+      .nav_link
+      {
+          color: black;
+      }
+        #nav_ul 
+        {
+            list-style-type: none;
+            margin: 0;
+            padding: 10px;
+            width: 100%;
+            min-width: 50%;
+            white-space: nowrap;
+         }
+
+         #nav_li 
+         {
+            display: inline;      
+            margin-left: 10%;
+            margin-right: 10%;    
+         }
+
+        footer
+        {
+          box-sizing: border-box;
+          border: 2px solid black;          
+          width: 100%;
+          height: 6.5%;
+          position: fixed;
+          bottom: 0;
+          left: 0;
+          z-index: 80;
+          background-color: white;
+          font-size: 75%;
+        }
+
+.bio
+{  
+  width: 100%;
+  height: 32.5%;
+  position: relative;
+  top: 25%;
+  z-index: 50;
+}
+
+.person
+{
+  float: left;
+  width: 15%;
+  height: 100%;
+  margin-left: 3%;
+  z-index: 49;
+}
+
+.info
+{
+  box-sizing: border-box;
+  border: 2px solid black; 
+  float: left;
+  width: 30%;
+  height: 80%;
+  overflow: scroll;
+  z-index: 48;
+}
+
+
+.mailing
+{   
+  font-size: 90%;
+  width: 60%;
+  height: 9%;
+  position: relative;
+  top: 20%;
+  margin-bottom: 7%;
+}
